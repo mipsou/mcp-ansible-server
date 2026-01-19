@@ -533,3 +533,23 @@ Below are all tools with short descriptions, minimal args, an example question y
 - **Configuration Aware**: Respects ansible.cfg and existing project configurations
 
 All troubleshooting tools maintain the same safety, auditability, and Ansible-native approach while providing enterprise-grade automation capabilities.
+
+## Legal Notice
+
+This MCP server is a wrapper around Ansible CLI tools and does not include any Ansible source code.
+
+- **This project**: Licensed under EUPL 1.2
+- **Ansible dependency**: GPL v3+ (Red Hat, Inc.)
+- **Relationship**: This software executes Ansible as an external tool via subprocess calls, similar to how one might call `git` or `docker`. No Ansible source code is copied or included in this project.
+
+The EUPL 1.2 license is compatible with GPL v3 (see EUPL Appendix).
+
+## Legal Notice
+
+This MCP server is a wrapper around Ansible CLI tools and does not include any Ansible source code.
+
+- **This project**: Licensed under EUPL 1.2
+- **Ansible dependency**: GPL v3+ (Red Hat, Inc.)
+- **Relationship**: This software executes Ansible as an external tool via subprocess calls, similar to how one might call `git` or `docker`. No Ansible source code is copied or included in this project.
+
+The EUPL 1.2 license is compatible with GPL v3 (see EUPL Appendix).
